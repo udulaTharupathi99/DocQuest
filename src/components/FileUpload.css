@@ -1,0 +1,84 @@
+/* .upload-area {
+    border: 2px dashed #ced4da;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.upload-area p {
+    margin: 0;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 0.9rem;
+} */
+
+
+.upload-area {
+    border: 2px dashed #ced4da;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.upload-area:hover {
+    background-color: #e2e6ea;
+}
+
+.upload-area p {
+    margin: 0;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 0.9rem;
+}
+
+.btn-outline-secondary {
+    cursor: pointer;
+}
+
+.uploaded-file {
+    border: 2px dashed #ced4da;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+}
+
+.uploaded-file strong {
+    font-size: 1.1rem;
+}
+
+.uploaded-file .text-success {
+    font-size: 0.9rem;
+}
+
+.delete-icon {
+    cursor: pointer;
+    color: #dc3545;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.delete-icon:hover {
+    color: #c82333;
+}
